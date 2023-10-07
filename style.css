@@ -267,7 +267,66 @@
       margin-bottom: 1rem;
     }
     /* .......................End Projects Section......................... */
-  
+
+      /* ....................Start Artikel Section CSS.................... */
+#Artikel {
+  position: relative;
+}
+
+.artikel-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.artikel {
+  padding: 24px;
+  border: 1px solid var(--color-dark-variant);
+  border-radius: 10px;
+  text-align: left; /* Mengubah posisi teks menjadi kiri */
+  transition: transform 0.3s;
+}
+
+.artikel:hover {
+  transform: translateY(-10px);
+}
+
+.artikel img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.artikel h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: var(--color-black);
+}
+
+.artikel-description {
+  font-size: 16px;
+  color: var(--color-dark-variant);
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--color-black);
+}
+
+/* ....................End Artikel Section CSS.................... */
+
 
   /* .......................Start Footer Section......................... */
   footer{
