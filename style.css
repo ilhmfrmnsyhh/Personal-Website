@@ -210,6 +210,65 @@
   }
   /* .......................End About Section......................... */
 
+    /* .......................Start Experience Section......................... */
+    section{
+      position: relative;
+    }
+    .arrow{
+      position: absolute;
+      right: 3%;
+      transition: var(--transition);
+      margin-top: 1.4rem;
+    }
+    .arrow:hover{
+      margin-top: 2rem;
+    }
+    .experience-container{
+      display: grid;
+      grid-template-columns:1fr 1fr;
+      gap: 4rem;
+    }
+    .experience-box{
+      border: 1px solid var(--color-dark-variant);
+      border-radius: 30px;
+      padding: 24px;
+    }
+    .experience-box h2{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .experience{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+    .ex-div{
+      margin: auto;
+      display: flex;
+      gap: 20px;
+    }
+    /* .......................End Experience Section......................... */
+    
+    
+    /* .......................Start Projects Section......................... */
+    .project-container{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 30px;
+    }
+    .project{
+      padding: 24px;
+      border: 1px solid var(--color-dark-variant);  
+      border-radius: 30px;
+      text-align: center;
+    }
+    .project img{
+      border-radius: 30px;
+      margin-bottom: 1rem;
+    }
+    /* .......................End Projects Section......................... */
+  
+
   /* .......................Start Footer Section......................... */
   footer{
     margin-top: 9rem;
